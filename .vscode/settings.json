@@ -1,0 +1,37 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5433,
+      "driver": "PostgreSQL",
+      "database": "loopp_db",
+      "username": "postgres",
+      "password": "recep190",
+      "name": "loopp"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "sgg",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "recep190"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "fiyat-takip",
+      "database": "fiyat_takip_db",
+      "username": "postgres",
+      "password": "recep190"
+    }
+  ]
+}
